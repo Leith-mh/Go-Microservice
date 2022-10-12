@@ -6,18 +6,8 @@ import (
 	"errors"
 	"log"
 	"time"
-)
 
-package data
-
-import (
-"context"
-"database/sql"
-"errors"
-"log"
-"time"
-
-"golang.org/x/crypto/bcrypt"
+	"golang.org/x/crypto/bcrypt"
 )
 
 const dbTimeout = time.Second * 3
